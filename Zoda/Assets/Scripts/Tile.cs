@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int xIndex;
+    public int yIndex;
+
+    private Board board; 
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Init( int _x, int _y, Board _board)
     {
-        
+        xIndex = _x;
+        yIndex = _y;
+        board = _board;
     }
 }
