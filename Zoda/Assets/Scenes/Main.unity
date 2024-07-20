@@ -268,6 +268,12 @@ MonoBehaviour:
   width: 7
   height: 9
   borderSize: 2
+  gamePiecePrefabs:
+  - {fileID: 8879593445547648310, guid: 158e0e895b2d0d745996fa2025be5ecd, type: 3}
+  - {fileID: 1253724757748926811, guid: cf6f9dfcf14a3454e973b8b0e9eb957f, type: 3}
+  - {fileID: 5769796824384690261, guid: 1f57565e9d3ac7d4aaa9d5917292a567, type: 3}
+  - {fileID: 2078026725891193400, guid: dba40ed8b8cdf0d48b7f447335cb82f8, type: 3}
+  - {fileID: 7008628334922226281, guid: bf69baabe83180a44a0978b6ace364dc, type: 3}
   TilePrefab: {fileID: 1726594472070800904, guid: a0968b402941ce6429c4620019798703, type: 3}
 --- !u!1 &1369432261
 GameObject:
@@ -373,7 +379,7 @@ GameObject:
   - component: {fileID: 1601820846}
   - component: {fileID: 1601820845}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BackgroundColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.17254902, g: 0.09019608, b: 0.2784314, a: 1}
+  m_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
